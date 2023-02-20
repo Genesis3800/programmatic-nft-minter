@@ -31,6 +31,21 @@ This repository contains scripts and contracts needed to create a new wallet, ch
 Find the full tutorial article available on the Chainstack blog:
 * [The ultimate guide to NFTs: From concept to market success](https://chainstack.com/ultimate-guide-to-nfts/)
 
+## Prerequisites
+
+The system requires at least:
+
+* Node.js: ^16.17.0— [install Node](https://nodejs.org/en/download/)
+* Solc.js installed globally -- [install solc](https://www.npmjs.com/package/solc-js "install solc")
+
+### Dependencies 
+
+* web3.js: ^1.7.5
+* @openzeppelin/contracts: ^4.7.2
+* Solc.js: ^0.8.17
+* dotenv: ^16.0.1
+* fs: ^0.0.1-security 
+
 ## Quick start
 
 Clone this repository.
@@ -38,10 +53,10 @@ Clone this repository.
 ### Install dependencies
 
 ```sh
-npm ci
+npm i
 ```
 
-> Use `npm ci` to launch a `clean install` of the dependencies, this will install the same version as in the `package.json` file.
+> You can also use npm ci to launch a clean install of the dependencies, this will install the same version as in the package.json file.
 
 ### Edit .env.sample
 
@@ -83,42 +98,6 @@ node deploy
 
 You just deployed your NFT smart contract. See the [The ultimate guide to NFTs: From concept to market success](https://chainstack.com/ultimate-guide-to-nfts/) to mint your NFTs.
 
-## Prerequisites
-
-The system requires at least:
-
-* Node.js: ^16.17.0— [install Node](https://nodejs.org/en/download/)
-* Solc.js installed globally
-
-### Dependencies 
-
-* web3.js: ^1.7.5
-* @openzeppelin/contracts: ^4.7.2
-* Solc.js: ^0.8.17
-* dotenv: ^16.0.1
-* fs: ^0.0.1-security 
-
-## Install 
-
-### Clone this repository
-
-```sh
-git clone https://github.com/soos3d/NFT-Minter-Tutorial.git
-```
-
-### Install dependencies
-
-```sh
-npm ci
-```
-
-> Use `npm ci` to launch a `clean install` of the dependencies, this will install the same version as in the `package.json` file.
-
-### Install solc globally
-
-```sh
-npm install -g solc
-```
 
 ## Examples
 
